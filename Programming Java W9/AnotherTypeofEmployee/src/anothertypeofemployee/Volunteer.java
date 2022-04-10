@@ -1,0 +1,22 @@
+
+package anothertypeofemployee;
+
+/**
+ *
+ * @author hp
+ */
+public class Volunteer extends StaffMember {
+    //----------------------------
+    // Set up a volunteer using the specifiec information.
+    //----------------------------
+    
+    public Volunteer (String eName, String eAddress, String ePhone){
+        super (eName, eAddress, ePhone);
+    }
+   //------------
+    // Return a zero pay value for this volunteer.
+    //-----------
+    public double pay(){
+        return 0.0;
+    }
+}

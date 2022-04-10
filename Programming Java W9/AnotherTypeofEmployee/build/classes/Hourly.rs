@@ -1,0 +1,2 @@
+anothertypeofemployee.Hourly
+another.Hourly
